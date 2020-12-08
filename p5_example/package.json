@@ -6,6 +6,7 @@
   "devDependencies": {
     "@types/p5": "^0.9.1",
     "fuse-box": "^3.7.1",
+    "gh-pages": "^3.1.0",
     "typescript": "^4.1.2",
     "uglify-js": "^3.12.1"
   },
@@ -14,6 +15,7 @@
   },
   "scripts": {
     "compile": "tsc",
-    "sketch": "node fuse.js"
+    "sketch": "node fuse.js",
+    "deploy": "gh-pages -d dist"
   }
 }
