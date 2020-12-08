@@ -1,0 +1,107 @@
+{
+  "tree": {
+    "fusebox-hot-reload@0.0.0": {
+      "deps": {
+        "fusebox-websocket@0.0.0": {
+          "deps": {
+            "events@0.0.0": {
+              "deps": {},
+              "name": "events",
+              "version": "0.0.0"
+            }
+          },
+          "name": "fusebox-websocket",
+          "version": "0.0.0"
+        }
+      },
+      "name": "fusebox-hot-reload",
+      "version": "0.0.0"
+    },
+    "p5@1.1.9": {
+      "deps": {
+        "buffer@0.0.0": {
+          "deps": {
+            "base64-js@1.5.1": {
+              "deps": {},
+              "name": "base64-js",
+              "version": "1.5.1"
+            },
+            "ieee754@1.2.1": {
+              "deps": {},
+              "name": "ieee754",
+              "version": "1.2.1"
+            }
+          },
+          "name": "buffer",
+          "version": "0.0.0"
+        },
+        "process@0.0.0": {
+          "deps": {},
+          "name": "process",
+          "version": "0.0.0"
+        }
+      },
+      "name": "p5",
+      "version": "1.1.9"
+    }
+  },
+  "flat": {
+    "fusebox-hot-reload@0.0.0": {
+      "name": "fusebox-hot-reload",
+      "version": "0.0.0",
+      "files": [
+        "index.js"
+      ]
+    },
+    "fusebox-websocket@0.0.0": {
+      "name": "fusebox-websocket",
+      "version": "0.0.0",
+      "files": [
+        "index.js"
+      ]
+    },
+    "events@0.0.0": {
+      "name": "events",
+      "version": "0.0.0",
+      "files": [
+        "index.js"
+      ]
+    },
+    "p5@1.1.9": {
+      "name": "p5",
+      "version": "1.1.9",
+      "files": [
+        "lib/p5.min.js",
+        "lib/addons/p5.sound.js"
+      ]
+    },
+    "buffer@0.0.0": {
+      "name": "buffer",
+      "version": "0.0.0",
+      "files": [
+        "index.js"
+      ]
+    },
+    "base64-js@1.5.1": {
+      "name": "base64-js",
+      "version": "1.5.1",
+      "files": [
+        "index.js"
+      ]
+    },
+    "ieee754@1.2.1": {
+      "name": "ieee754",
+      "version": "1.2.1",
+      "files": [
+        "index.js"
+      ]
+    },
+    "process@0.0.0": {
+      "name": "process",
+      "version": "0.0.0",
+      "files": [
+        "index.js"
+      ]
+    }
+  }
+}
