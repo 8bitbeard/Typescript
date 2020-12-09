@@ -1,0 +1,20 @@
+{
+  "name": "breathing_cube",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "run-p start-compile start-run",
+    "start-compile": "tsc --watch",
+    "start-run": "browser-sync start --server -w",
+    "deploy": "gh-pages -d dist -e breathing_cube"
+  },
+  "devDependencies": {
+    "@types/p5": "^0.9.1",
+    "browser-sync": "^2.26.13",
+    "gh-pages": "^3.1.0",
+    "npm-run-all": "^4.1.5",
+    "typescript": "^4.1.2"
+  }
+}

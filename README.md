@@ -8,3 +8,6 @@ You can view/interact with the projects trough my Github Pages. See the list bel
 # Study:
 - Ticks to Datetime (Credits to https://github.com/zubialevich) : https://8bitbeard.github.io/typescript/ticks-to-datetime
 - Basic p5.js Sketch (Kind of a template): https://8bitbeard.github.io/typescript/p5_typescript_template
+
+# Animations:
+- Breathing Cube: https://8bitbeard.github.io/typescript/breathing_cube
